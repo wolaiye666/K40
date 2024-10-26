@@ -43,7 +43,7 @@ jobs:
     - name: 下载内核源码
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
-        git clone https://github.com/wu17481748/android_kernel_xiaomi_alioth.git android-kernel --depth=1
+        git clone https://github.com/LineageOS/android_kernel_xiaomi_sm8250.git -b lineage-21 android-kernel --depth=1
 
 
 
